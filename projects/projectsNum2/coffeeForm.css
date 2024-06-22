@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slipt-screen {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 100vh;
+    background: transparent url('/images/Coffee.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    background-color: aquamarine;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right {
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 100vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    justify-content: center;
+}
+
+form {
+    display: block;
+    direction: rtl;
+    width: 50%;
+    height: 57.0370vh;
+    opacity: 1;
+    margin-top: 130px;
+    margin-bottom: 287.5px;
+    margin-left: 13vw;
+    margin-right: 15vw;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    display: block;
+    width: 90%;
+    height: 35px;
+    background: #E5EEFF 0% 0% no-repeat padding-box;
+    border: none;
+    border-bottom: 5px solid #020253;
+}
+
+label {
+    width: 58px;
+    height: 24px;
+    text-align: right;
+    font: normal normal bold 16px/24px Heebo;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+    opacity: 1;
+}
+
+h2 {
+    top: 271px;
+    left: 1350px;
+    width: 100%;
+    height: 13vh;
+    text-align: right;
+    font: normal normal 900 2rem Heebo;
+    letter-spacing: 0px;
+    color: #020253;
+    opacity: 1;
+}
+
+p {
+    width: 100%;
+    height: 12vh;
+    text-align: right;
+    font: normal normal normal 1rem Heebo;
+    letter-spacing: 0px;
+    color: #020253;
+    opacity: 1;
+}
+
+button {
+    margin-top: 5%;
+    top: 647px;
+    left: 1546px;
+    width: 30%;
+    height: 30px;
+    background: #020253 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+button[type="submit"] {
+    width: 68px;
+    height: 32px;
+    text-align: right;
+    font: normal normal bold 22px/30px Heebo;
+    letter-spacing: 0.33px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .slipt-screen {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 35vh;
+        background: transparent url('/images/Coffee.png') 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        opacity: 1;
+        background-color: aquamarine;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .right {
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 65vh;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        opacity: 1;
+    }
+
+    form {
+        margin-top: 5%;
+        height: 15vh;
+        margin-left: 20vw;
+    }
+
+    h2 {
+        height: 10vh;
+    }
+
+    p {
+        height: 9vh;
+    }
+}

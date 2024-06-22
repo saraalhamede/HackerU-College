@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    direction: rtl;
+    display: block;
+    justify-content: center;
+}
+
+.container {
+    top: 337px;
+    left: 410px;
+    width: 80%;
+    height: 80%;
+    opacity: 1;
+    margin-top: 20vh;
+    margin-right: 10vw;
+    margin-left: 5vw;
+
+}
+
+h1 {
+    width: 80%;
+    height: 20vh;
+    text-align: left;
+    font-size: 7em;
+    letter-spacing: 0px;
+    color: white;
+    text-shadow: 0px 0px 36px #00000087;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 5vw;
+    margin-right: 8vw;
+}
+
+h4 {
+    width: 60%;
+    height: 38px;
+    text-align: center;
+    font: normal normal normal 1.8em Varela Round;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-left: 5vw;
+    margin-right: 15vw;
+    margin-top: 15px;
+}
+
+p {
+    width: 60%;
+    height: 60px;
+    text-align: center;
+    font: normal normal normal 16px/20px Varela Round;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+    margin-right: 15vw;
+    margin-top: 15px;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.username {
+    flex: 1 0 20px;
+    border: 10px solid white;
+    border-radius: 10px;
+}
+
+.email {
+    flex: 1 0 20px;
+    border: 10px solid white;
+    border-radius: 10px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 418px;
+    height: 100px;
+    background: #F6F6F624 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+}
+
+button[type="submit"] {
+
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+@media (width<=550px) {
+    h1 {
+        font-size: 4em;
+        width: 70vw;
+    }
+
+    h4 {
+        font-size: 2em;
+        width: 70vw;
+        padding-left: 10vw;
+    }
+
+    p {
+        margin-top: 15vw;
+        font-size: 1em;
+        width: 70vw;
+    }
+
+    .flex-container {
+        margin-top: 5vh;
+    }
+}
+
+@media (min-width:550px) and (max-width:800px) {
+    h1 {
+        font-size: 5em;
+        width: 70vw;
+    }
+
+    h4 {
+        font-size: 3em;
+        width: 70vw;
+        padding-left: 10vw;
+    }
+
+    p {
+        margin-top: 15vw;
+        font-size: 1.5em;
+        width: 70vw;
+    }
+
+    .flex-container {
+        margin-top: 5vh;
+    }
+}
+
+@media (width<=300px) {
+    h1 {
+        font-size: 3em;
+        width: 70vw;
+    }
+
+    h4 {
+        font-size: 1.5em;
+        width: 70vw;
+        padding-left: 10vw;
+    }
+
+    p {
+        margin-top: 15vw;
+        font-size: 1em;
+        width: 70vw;
+    }
+
+    .flex-container {
+        margin-top: 8vh;
+    }
+
+    form input[type="text"],
+    form input[type="email"] {
+        height: 10px;
+
+    }
+}
