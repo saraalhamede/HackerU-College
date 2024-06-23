@@ -2,7 +2,7 @@
 function dontclick() {
     document.getElementById("me").innerText = "I said don't Click";
     var img = document.getElementById("pic1");
-    img.src = '/images/dontClick.jpg'
+    img.src = '../images/dontClick.jpg'
 
 }
 function dontclick1() {
