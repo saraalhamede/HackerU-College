@@ -14,7 +14,7 @@
     left: 0px;
     width: 50%;
     height: 100vh;
-    background: transparent url('/images/Coffee.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../../images/Coffee.png') 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
     background-color: aquamarine;
@@ -119,7 +119,7 @@ button[type="submit"] {
         left: 0px;
         width: 100%;
         height: 35vh;
-        background: transparent url('/images/Coffee.png') 0% 0% no-repeat padding-box;
+        background: transparent url('../../images/Coffee.png') 0% 0% no-repeat padding-box;
         border: 1px solid #707070;
         opacity: 1;
         background-color: aquamarine;

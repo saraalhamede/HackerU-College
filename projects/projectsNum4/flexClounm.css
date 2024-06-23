@@ -14,7 +14,7 @@
     left: 0px;
     width: 100vw;
     height: 70vh;
-    background: transparent url('/images/Path16.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../../images/Path16.png') 0% 0% no-repeat padding-box;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
